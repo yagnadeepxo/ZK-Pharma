@@ -6,10 +6,12 @@ The ZK Drug Verification System is a web application that uses zero-knowledge pr
 
 There are 4 different parameters that are taken into consideration before valuating the safety of the drug
 
-#### preservative (expected range 1 - 50)
-#### adjuvant  (expected range 20 - 125)
-#### stabilizer  (expected range 10 - 500)
-#### excipient   (expected range 50 - 900)
+| parameter  | Expected Range |
+|--------------|---------------|
+| Preservative | 1 - 50        |
+| Adjuvant     | 20 - 125      |
+| Stabilizer   | 10 - 500      |
+| Excipient    | 50 - 900      |
 
 any values out of the range will not be accepted by the circuit and no proof will be generated indicating the drug is unsafe
 
@@ -18,3 +20,5 @@ any values out of the range will not be accepted by the circuit and no proof wil
 
 
 to read more about it, check out [blog](https://dev.to/yagnadeepxo/stealth-in-science-leveraging-zero-knowledge-proofs-to-safeguard-drug-design-intellectual-property-2eab)
+
+This project is licensed under the [MIT License](LICENSE).
